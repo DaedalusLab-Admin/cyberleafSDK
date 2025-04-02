@@ -1,0 +1,9 @@
+package shared
+
+// Define the plugin types
+const (
+	PLUGIN_TYPE_PARSER    = "PARSER"
+	PLUGIN_TYPE_ANALYSER  = "ANALYSER"
+	PLUGIN_TYPE_OPTIMIZER = "OPTIMIZER"
+	PLUGIN_TYPE_REPORTER  = "REPORTER"
+)
