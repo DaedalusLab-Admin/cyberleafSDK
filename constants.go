@@ -1,4 +1,4 @@
-package shared
+package cyberleafSDK
 
 // Plugin types
 const (

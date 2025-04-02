@@ -1,4 +1,4 @@
-package shared
+package cyberleafSDK
 
 // A map where keys are plugin categories and values are lists of plugin names.
 // TODO must be accessible from Plugins
