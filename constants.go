@@ -1,6 +1,6 @@
 package shared
 
-// Define the plugin types
+// Plugin types
 const (
 	PLUGIN_TYPE_PARSER    = "PARSER"
 	PLUGIN_TYPE_ANALYSER  = "ANALYSER"
