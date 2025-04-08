@@ -4,9 +4,11 @@ package cyberleafSDK
 // TODO must be accessible from Plugins
 type PluginsMap map[string][]string
 
-type CyberleafPluginMetadata struct {
+type PluginMetadata struct {
 	// The name of the plugin
 	Name string
+	// The description of the plugin
+	Description string
 	// The type of the plugin
 	Type string
 	// The version of the plugin
