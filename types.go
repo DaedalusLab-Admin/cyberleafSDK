@@ -1,20 +1,15 @@
 package cyberleafSDK
 
+import "go/ast"
+
 // A map where keys are plugin categories and values are lists of plugin names.
-// TODO must be accessible from Plugins
 type PluginsMap map[string][]string
 
-type PluginMetadata struct {
-	// The name of the plugin
-	Name string
-	// The description of the plugin
-	Description string
-	// The type of the plugin
-	Type string
-	// The version of the plugin
-	Version string
-	// Required plugins for this plugin
-	RequiredPlugins PluginsMap
-	// Accepted analysers for this plugin
-	AcceptedAnalysers []string
+// TODO move in sdk and use it a input/output of plugins
+type CyberleafChannelItem struct {
+	Target       string    // Path to the file
+	AST          *ast.File // Abstract Syntax Tree of the file
+	From         string    // Name of the last plugin that processed this item
+	Analysis     string    // Analysis result
+	Optimization string    // Optimization result
 }
