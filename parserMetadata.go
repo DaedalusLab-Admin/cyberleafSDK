@@ -6,22 +6,22 @@ type ParserMetadata struct {
 	AcceptedFileExtensions []string
 }
 
-func (pm ParserMetadata) GetName() string {
-	return pm.Name
+func (metadata ParserMetadata) GetName() string {
+	return metadata.Name
 }
 
-func (pm ParserMetadata) GetDescription() string {
-	return pm.Description
+func (metadata ParserMetadata) GetDescription() string {
+	return metadata.Description
 }
 
-func (pm ParserMetadata) GetType() string {
-	return pm.Type
+func (metadata ParserMetadata) GetType() string {
+	return metadata.Type
 }
 
-func (pm ParserMetadata) GetVersion() string {
-	return pm.Version
+func (metadata ParserMetadata) GetVersion() string {
+	return metadata.Version
 }
 
-func (pm ParserMetadata) GetAcceptedFileExtensions() []string {
-	return pm.AcceptedFileExtensions
+func (metadata ParserMetadata) GetAcceptedFileExtensions() []string {
+	return metadata.AcceptedFileExtensions
 }

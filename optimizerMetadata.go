@@ -7,28 +7,28 @@ type OptimizerMetadata struct {
 	AcceptedAnalysers []string
 }
 
-func (pm OptimizerMetadata) GetName() string {
-	return pm.Name
+func (metadata OptimizerMetadata) GetName() string {
+	return metadata.Name
 }
 
-func (pm OptimizerMetadata) GetDescription() string {
-	return pm.Description
+func (metadata OptimizerMetadata) GetDescription() string {
+	return metadata.Description
 }
 
-func (pm OptimizerMetadata) GetType() string {
-	return pm.Type
+func (metadata OptimizerMetadata) GetType() string {
+	return metadata.Type
 }
 
-func (pm OptimizerMetadata) GetVersion() string {
-	return pm.Version
+func (metadata OptimizerMetadata) GetVersion() string {
+	return metadata.Version
 }
 
 // Implement GetRequiredAnalysers for OptimizerMetadata
-func (pm OptimizerMetadata) GetRequiredAnalysers() []string {
-	return pm.RequiredAnalysers
+func (metadata OptimizerMetadata) GetRequiredAnalysers() []string {
+	return metadata.RequiredAnalysers
 }
 
 // Implement GetAcceptedAnalysers for OptimizerMetadata
-func (pm OptimizerMetadata) GetAcceptedAnalysers() []string {
-	return pm.AcceptedAnalysers
+func (metadata OptimizerMetadata) GetAcceptedAnalysers() []string {
+	return metadata.AcceptedAnalysers
 }

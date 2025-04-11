@@ -8,18 +8,18 @@ type PluginMetadata struct {
 	Version     string
 }
 
-func (bpm PluginMetadata) GetName() string {
-	return bpm.Name
+func (metadata PluginMetadata) GetName() string {
+	return metadata.Name
 }
 
-func (bpm PluginMetadata) GetDescription() string {
-	return bpm.Description
+func (metadata PluginMetadata) GetDescription() string {
+	return metadata.Description
 }
 
-func (bpm PluginMetadata) GetType() string {
-	return bpm.Type
+func (metadata PluginMetadata) GetType() string {
+	return metadata.Type
 }
 
-func (bpm PluginMetadata) GetVersion() string {
-	return bpm.Version
+func (metadata PluginMetadata) GetVersion() string {
+	return metadata.Version
 }
