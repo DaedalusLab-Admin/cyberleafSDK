@@ -1,6 +1,6 @@
 package cyberleafSDK
 
-// Plugin types
+// Plugin Types
 const (
 	PLUGIN_TYPE_PARSER    = "PARSER"
 	PLUGIN_TYPE_ANALYSER  = "ANALYSER"
